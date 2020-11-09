@@ -11,13 +11,17 @@ var add = function add(a,b){
 }
 add();
 var subtract = function subtract(){
-
+  return a-b;
 }
+subtract();
 var multiply = function multiply(){
+  return a*b;
 }
+multiply();
 var divide = function divide(){
+  return a/b;
 }
-
+divide();
 var increment = function increment(n){
   return n += 1;
 }
