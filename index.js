@@ -3,6 +3,6 @@ var makeInt = function makeInt(string){
 }
 makeInt();
 var preserveDecimal = function preserveDecimal(string){
-  return parseInt(string,10);
+  return parseFloat(string);
 }
-makeInt();
+preserveDecimal();
