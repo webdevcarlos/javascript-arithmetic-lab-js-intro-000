@@ -1,10 +1,10 @@
 var increment = function increment(n){
-  n += 1;
+  return n += 1;
 }
 increment();
 
 var decrement = function decrement(n){
-  n -=1;
+  return n -=1;
 }
 decrement();
 
