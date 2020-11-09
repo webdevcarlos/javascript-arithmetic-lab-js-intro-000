@@ -6,27 +6,17 @@ var multiply = function multiply(){
 }
 var divide = function divide(){
 }
-var number = 10
-
-function add5() {
-  number += 5
+var add = function add(a,b){
+  return a+b;
 }
+add();
+var subtract = function subtract(){
 
-function divideBy3() {
-  number /= 3
 }
-
-divideBy3()
-
-console.log(number)
-
-add5()
-
-console.log(number)
-
-
-
-
+var multiply = function multiply(){
+}
+var divide = function divide(){
+}
 
 var increment = function increment(n){
   return n += 1;
