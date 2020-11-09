@@ -1,3 +1,12 @@
+var add = function add(){
+}
+var subtract = function subtract(){
+}
+var multiply = function multiply(){
+}
+var divide = function divide(){
+}
+
 var increment = function increment(n){
   return n += 1;
 }
