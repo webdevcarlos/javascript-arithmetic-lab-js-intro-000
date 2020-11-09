@@ -10,15 +10,15 @@ var add = function add(a,b){
   return a+b;
 }
 add();
-var subtract = function subtract(){
+var subtract = function subtract(a,b){
   return a-b;
 }
 subtract();
-var multiply = function multiply(){
+var multiply = function multiply(a,b){
   return a*b;
 }
 multiply();
-var divide = function divide(){
+var divide = function divide(a,b){
   return a/b;
 }
 divide();
